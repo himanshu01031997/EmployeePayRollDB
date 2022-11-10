@@ -26,3 +26,19 @@ select salary
 from employeepayroll
 where startdate between '2000-06-20' and '2002-08-20'
 
+--------------------UC6(adding new column gender)---------------------
+
+
+alter table employeepayroll
+add gender char(1)
+
+-------------(updating column gender)--------------
+ update employeepayroll
+ set gender ='M'
+ where name ='himanshu' or name='chota'
+
+ update employeepayroll
+ set gender ='F'
+ where name ='mini'
+
+
