@@ -41,4 +41,15 @@ add gender char(1)
  set gender ='F'
  where name ='mini'
 
+ -----------------------------UC7-------------
+
+ select sum(salary) from employeepayroll
+ select avg(salary) from employeepayroll
+ select min(salary) from employeepayroll
+ select max(salary) from employeepayroll
+ select count(salary) from employeepayroll
+
+
+
+
 
