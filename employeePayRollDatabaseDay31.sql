@@ -16,3 +16,13 @@ insert into employeepayroll values('mini',10000,'2002-05-20')
 
 ----------------------UC4---------------
 select * from employeepayroll
+
+-------------------UC5----------------
+select salary
+from employeepayroll
+where name ='himanshu'
+
+select salary
+from employeepayroll
+where startdate between '2000-06-20' and '2002-08-20'
+
